@@ -1,0 +1,80 @@
+.Perfil{
+border-radius: 100%;
+max-width: 200px;
+border: 3px solid white;
+}
+body{
+    background-color: rgb(255, 190, 198);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.row1{
+    background-image: url(../imagens/Fundo.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+}
+.row{
+    background-color: white;
+    border-radius: 20px;
+    width: 150px;
+    position: relative;
+    left: 15%;
+    float: left;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    word-spacing: 40px;
+    width: 62%;
+    left: 17%;
+}
+img{
+    border-radius: 30px;
+    width: 95%;
+}
+h3{
+    position: relative;
+    top: -40px;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2rem;
+    width: 2px;
+    height: 30px;
+    left: 30px;
+    color: white;
+}
+@media screen and (max-width: 768px){
+h2{
+    font-size: 50%;
+}
+.row{
+    left: 8%;
+    width: 90px;
+}
+iframe{
+    width: 60px;
+    height: 65px;
+}
+.row2{
+    width: 73%;
+    left: 12%;
+    height: 100%;
+}
+}
